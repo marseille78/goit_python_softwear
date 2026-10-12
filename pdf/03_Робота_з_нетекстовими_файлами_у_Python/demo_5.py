@@ -1,0 +1,5 @@
+byte_array = bytearray(b'Hello')
+byte_array.append(ord("!"))
+print("byte_array :> ", byte_array)
+string = byte_array.decode(encoding="utf-8")
+print("string :> ", string)
